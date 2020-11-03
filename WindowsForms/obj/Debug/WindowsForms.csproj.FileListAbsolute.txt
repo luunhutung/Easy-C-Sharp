@@ -1,0 +1,11 @@
+C:\Users\NN\Desktop\UngDung1\WindowsForms\bin\Debug\WindowsForms.exe.config
+C:\Users\NN\Desktop\UngDung1\WindowsForms\bin\Debug\WindowsForms.exe
+C:\Users\NN\Desktop\UngDung1\WindowsForms\bin\Debug\WindowsForms.pdb
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.Form1.resources
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.Properties.Resources.resources
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.csproj.GenerateResource.cache
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.exe
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.pdb
+C:\Users\NN\Desktop\UngDung1\WindowsForms\obj\Debug\WindowsForms.FormPhepCong.resources

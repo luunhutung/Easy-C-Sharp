@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7BD3284F-62A5-4FA5-B258-81680AA9E297}</ProjectGuid>
+    <ProjectGuid>{D2A164B4-965C-497A-BBCD-40F874510FDF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>WindowsForms</RootNamespace>
+    <AssemblyName>WindowsForms</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,53 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDangNhap.cs">
+    <Compile Include="FormPhepCong.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDangNhap.Designer.cs">
-      <DependentUpon>FormDangNhap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormMain.Designer.cs">
-      <DependentUpon>FormMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhepChia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhepChia.Designer.cs">
-      <DependentUpon>formPhepChia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhepCong.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhepCong.Designer.cs">
-      <DependentUpon>formPhepCong.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhepNhan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhepNhan.Designer.cs">
-      <DependentUpon>formPhepNhan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhepTru.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhepTru.Designer.cs">
-      <DependentUpon>formPhepTru.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhuongTrinh\formPhuongTrinhBac1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhuongTrinh\formPhuongTrinhBac1.Designer.cs">
-      <DependentUpon>formPhuongTrinhBac1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="formPhuongTrinh\formPhuongTrinhBac2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="formPhuongTrinh\formPhuongTrinhBac2.Designer.cs">
-      <DependentUpon>formPhuongTrinhBac2.cs</DependentUpon>
+    <Compile Include="FormPhepCong.Designer.cs">
+      <DependentUpon>FormPhepCong.cs</DependentUpon>
     </Compile>
     <Compile Include="PhuongTrinh.cs" />
     <Compile Include="Program.cs" />
@@ -106,23 +64,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDangNhap.resx">
-      <DependentUpon>FormDangNhap.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.resx">
-      <DependentUpon>FormMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formPhepCong.resx">
-      <DependentUpon>formPhepCong.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formPhepTru.resx">
-      <DependentUpon>formPhepTru.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formPhuongTrinh\formPhuongTrinhBac1.resx">
-      <DependentUpon>formPhuongTrinhBac1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="formPhuongTrinh\formPhuongTrinhBac2.resx">
-      <DependentUpon>formPhuongTrinhBac2.cs</DependentUpon>
+    <EmbeddedResource Include="FormPhepCong.resx">
+      <DependentUpon>FormPhepCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
