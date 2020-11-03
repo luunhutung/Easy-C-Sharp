@@ -10,27 +10,37 @@ namespace PhuongTrinhBac1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----------Phuong trinh bac nhat----------");
-
-            float a, b;
-
-            Console.Write("+ Nhap a: ");
-            a = float.Parse(Console.ReadLine());
-
-            Console.Write("+ Nhap b: ");
-            b = float.Parse(Console.ReadLine());
-            
-            if (b < 0)
-                Console.WriteLine("Phuong trinh: {0}x{1}=0", a, b);
-            else
-                Console.WriteLine("Phuong trinh: {0}x+{1}=0", a, b);
-
+            Console.WriteLine("PTB1");
+            Console.WriteLine("Nhap So a");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap So b");
+            double b = double.Parse(Console.ReadLine());
+            // voi a = 0 
             if (a == 0)
-                Console.WriteLine("==== Result: Phuong trinh vo nghiem ====");
-            else if (a == 0 && b == 0)
-                Console.WriteLine("==== Result: Phuong tringh vo so nghiem ====");
+            {
+                // kiem tra b = 0?
+                if (b == 0)
+                {
+                    //b==0
+                    Console.WriteLine("PTVSN");
+                }
+                else
+                {
+                    // b != 0
+                    Console.WriteLine("PTVSN");
+                }
+
+            }
             else
-                Console.WriteLine("==== Result: " + -b / a + " ====");
+            {
+                // voi a != 0
+                Console.WriteLine("X = {0}", -b / a);
+
+
+            }
+
+
+
         }
     }
 }

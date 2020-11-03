@@ -15,14 +15,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
+          If you want to change the Windows User Account Control level replace the
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
+         If you want to utilize File and Registry Virtualization for backward
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -49,17 +49,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0RDAOApCKkXPrB6BeWS39QFH3gP5VL7u1kf/c7buEOU=</dsig:DigestValue>
+        <dsig:DigestValue>gOeFMPV9ZFfWiVJgv9biJy+GPhH+8iU6LOhmh8AYmdc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="UngDung1.exe.config" size="187">
+  <file name="UngDung1.exe.config" size="181">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uAYar7vNyhiVJ1+rwDucruPLIXGcjhw/EzQpBzo3wcI=</dsig:DigestValue>
+      <dsig:DigestValue>KhLuKP6HlE8sirCUpyJ+BfnKstwyHIoWyds5zMQNWoc=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

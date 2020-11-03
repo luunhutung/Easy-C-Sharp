@@ -1,3 +1,17 @@
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe.config
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.pdb
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.exe
+C:\Users\NN\Desktop\Share\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.pdb
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe.config
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.pdb
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.exe
+C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\XacDinhChanLe\obj\Debug\XacDinhChanLe.pdb
 C:\Users\NN\Desktop\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe.config
 C:\Users\NN\Desktop\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.exe
 C:\Users\NN\Desktop\UngDung1\XacDinhChanLe\bin\Debug\XacDinhChanLe.pdb

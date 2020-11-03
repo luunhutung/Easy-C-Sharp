@@ -10,30 +10,27 @@ namespace PhuongTrinhBac2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Phuong trinh bac 2");
-
-            float a, b, c, delta;
-
-            Console.Write("Nhap a:");
-            a = float.Parse(Console.ReadLine());
-
-            Console.Write("Nhap b:");
-            b = float.Parse(Console.ReadLine());
-
-            Console.Write("Nhap c:");
-            c = float.Parse(Console.ReadLine());
-
-            if (a == 0)
-                Console.WriteLine("Day khong phai la phuong trinh bac 2. Hay thu lai");
-            else
+            Console.WriteLine("PTB2");
+            Console.WriteLine("Nhap a");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap b");
+            double b = double.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap c");
+            double c = double.Parse(Console.ReadLine());
+           // cach 1
+            double d = b * b - 4 * a * c;
+            // cach 2
+            d = Math.Pow(b, 2) - 4 * a * c;
+            if (d < 0)
             {
-                delta = b * b - 4 * a * c;
-
-                if (delta < 0)
-                    Console.WriteLine("Phuong trinh vo nghiem");
-                else
-                    Console.WriteLine("Phuong trinh co 2 nghiem x1 = {0} va x2 = {1}", (-b + Math.Sqrt(delta)) / 2 * a, (-b - Math.Sqrt(delta)) / 2 * a);
+                Console.WriteLine("PTVN");
             }
+            else {
+                double x1 = (-b + Math.Sqrt(d)) / (2 * a);
+                double x2 = (-b - Math.Sqrt(d)) / (2 * a);
+                Console.WriteLine("Nghiem La : x1={0} x2 ={1} ",x1,x2);
+            }
+
         }
     }
 }
