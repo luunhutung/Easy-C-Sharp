@@ -1,0 +1,17 @@
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.Form1.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.ThemLop.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.DanhSachLop.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.DanhSachSinhVien.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.DiemTheoLop.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.SinhVienHocLai.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.SinhVienTheoLop.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.ThemSinhVien.resources
