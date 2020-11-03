@@ -103,6 +103,8 @@
     <Compile Include="PhuongTrinh.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTBac1.cs" />
+    <Compile Include="PTBac2.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

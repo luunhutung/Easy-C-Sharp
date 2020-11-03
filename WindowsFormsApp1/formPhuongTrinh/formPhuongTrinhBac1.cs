@@ -28,16 +28,19 @@ namespace WindowsFormsApp1.formPhuongTrinh
                     txtSoA.Focus();
                     throw new Exception("Số A Nhập Không Hợp Lệ");
                 }
-                if (double.TryParse(txtSoA.Text, out b) == false)
+                if (double.TryParse(txtSoB.Text, out b) == false)
                 {
                     txtSoB.SelectAll();
                     txtSoB.Focus();
                     throw new Exception("Số B Nhập Không Hợp Lệ");
                 }
                 PhuongTrinh pt = new PhuongTrinh();
-                
-                txtTong.Text = 
-                    pt.PhuongTrinhBac1(a, b).ToString();
+                PTBac1 ptb1 = new PTBac1();
+                ptb1.a = a;
+                ptb1.b = b;
+                ptb1.Giai();
+                txtTong.Text = ptb1.x.ToString();
+                //txtTong.Text = pt.PhuongTrinhBac1(a, b).ToString();
 
 
             }
@@ -48,6 +51,11 @@ namespace WindowsFormsApp1.formPhuongTrinh
             }
 
 
+
+        }
+
+        private void formPhuongTrinhBac1_Load(object sender, EventArgs e)
+        {
 
         }
     }
