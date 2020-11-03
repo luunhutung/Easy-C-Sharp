@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +8,11 @@ namespace SuDungHam
 {
     class Program
     {
-        #region Main
+        
         static void Main(string[] args)
         {
+            //XinChao();
+            //XinChao("Nguyen Van Teo");
             try
             {
                 PhuongTrinh pt = new PhuongTrinh();
@@ -24,9 +26,6 @@ namespace SuDungHam
             }
             
         }
-        #endregion
-
-        #region Menu
         private static void Menu()
         {
             Console.WriteLine("Chon Chuong Trinh");
@@ -57,9 +56,7 @@ namespace SuDungHam
             // 
             Menu();
         }
-        #endregion
 
-        #region PT Bậc 2
         private static void PhuongTrinhBac2()
         {
             double a, b,c;
@@ -74,9 +71,7 @@ namespace SuDungHam
             double[] kq = pt.PhuongTrinhBac2(a, b, c);
             Console.WriteLine("Kq x1={0}, x2={1}", kq[0], kq[1]);
         }
-        #endregion
 
-        #region Tính Tổng
         private static void TinhTong()
         {
             int a, b;
@@ -90,9 +85,7 @@ namespace SuDungHam
             Console
            .WriteLine("Tong {0} + {1} = {2}", a, b, kq);
         }
-        #endregion
 
-        #region Tính Giai Thừa
         private static void TinhGiaiThua()
         {
             int N;
@@ -108,9 +101,7 @@ namespace SuDungHam
                 return 1;
             return n * GiaiThua(n - 1);
         }
-        #endregion
 
-        #region PT Bậc 1
         private static void PhuongTrinhBac1()
         {
             double a, b;
@@ -134,6 +125,15 @@ namespace SuDungHam
              throw new Exception("Phuong Trinh Vo Nghiem"); 
             return -b / a; 
         }
-        #endregion
+
+        private static void XinChao(string v)
+        {
+            Console.WriteLine("Xin chao! {0}",v);
+        }
+
+        private static void XinChao()
+        {
+            Console.WriteLine("Xin Chao");
+        }
     }
 }

@@ -1,7 +1,0 @@
-C:\Users\NN\Desktop\UngDung1\Random\bin\Debug\Random.exe.config
-C:\Users\NN\Desktop\UngDung1\Random\bin\Debug\Random.exe
-C:\Users\NN\Desktop\UngDung1\Random\bin\Debug\Random.pdb
-C:\Users\NN\Desktop\UngDung1\Random\obj\Debug\UseRandom.csprojAssemblyReference.cache
-C:\Users\NN\Desktop\UngDung1\Random\obj\Debug\UseRandom.csproj.CoreCompileInputs.cache
-C:\Users\NN\Desktop\UngDung1\Random\obj\Debug\Random.exe
-C:\Users\NN\Desktop\UngDung1\Random\obj\Debug\Random.pdb

@@ -49,17 +49,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gOeFMPV9ZFfWiVJgv9biJy+GPhH+8iU6LOhmh8AYmdc=</dsig:DigestValue>
+        <dsig:DigestValue>3OmyN1LS+kZNaY65NJ490BNkjR7w7ho61zWnAxG+sfY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="UngDung1.exe.config" size="181">
+  <file name="UngDung1.exe.config" size="187">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>KhLuKP6HlE8sirCUpyJ+BfnKstwyHIoWyds5zMQNWoc=</dsig:DigestValue>
+      <dsig:DigestValue>uAYar7vNyhiVJ1+rwDucruPLIXGcjhw/EzQpBzo3wcI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

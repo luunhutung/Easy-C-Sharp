@@ -12,10 +12,3 @@ C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungBien\obj\Debug\SuDungB
 C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungBien\obj\Debug\SuDungBien.csproj.CoreCompileInputs.cache
 C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungBien\obj\Debug\SuDungBien.exe
 C:\Users\NN\Desktop\Share\NhatNghe20201017\UngDung1\SuDungBien\obj\Debug\SuDungBien.pdb
-C:\Users\NN\Desktop\UngDung1\SuDungBien\bin\Debug\SuDungBien.exe.config
-C:\Users\NN\Desktop\UngDung1\SuDungBien\bin\Debug\SuDungBien.exe
-C:\Users\NN\Desktop\UngDung1\SuDungBien\bin\Debug\SuDungBien.pdb
-C:\Users\NN\Desktop\UngDung1\SuDungBien\obj\Debug\SuDungBien.csprojAssemblyReference.cache
-C:\Users\NN\Desktop\UngDung1\SuDungBien\obj\Debug\SuDungBien.csproj.CoreCompileInputs.cache
-C:\Users\NN\Desktop\UngDung1\SuDungBien\obj\Debug\SuDungBien.exe
-C:\Users\NN\Desktop\UngDung1\SuDungBien\obj\Debug\SuDungBien.pdb

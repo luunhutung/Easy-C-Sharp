@@ -1,7 +1,0 @@
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\bin\Debug\XacDinhSoNgayCuaThang.exe.config
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\bin\Debug\XacDinhSoNgayCuaThang.exe
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\bin\Debug\XacDinhSoNgayCuaThang.pdb
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\obj\Debug\XacDinhSoNgayCuaThang.csprojAssemblyReference.cache
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\obj\Debug\XacDinhSoNgayCuaThang.csproj.CoreCompileInputs.cache
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\obj\Debug\XacDinhSoNgayCuaThang.exe
-C:\Users\NN\Desktop\UngDung1\XacDinhSoNgayCuaThang\obj\Debug\XacDinhSoNgayCuaThang.pdb
