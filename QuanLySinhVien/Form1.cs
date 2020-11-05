@@ -37,8 +37,7 @@ namespace QuanLySinhVien
         private void thêmLớpToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form formThemLop = new ThemLop();
-            formThemLop.MdiParent = this;
-            formThemLop.Show();
+            formThemLop.ShowDialog();
         }
         #endregion
 
@@ -96,5 +95,9 @@ namespace QuanLySinhVien
         }
         #endregion
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

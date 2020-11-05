@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassLop.cs" />
     <Compile Include="DanhSachLop.cs">
       <SubType>Form</SubType>
     </Compile>
