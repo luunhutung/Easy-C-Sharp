@@ -28,7 +28,7 @@ namespace QuanLySinhVien
         }
         #endregion
 
-        #region Thêm thông tin đối tượng hiện tại vào danh sách
+        #region Thêm thông tin lớp vừa nhập vào danh sách
         public void ThemLopHoc()
         {
             if (DanhSachLopHoc == null)

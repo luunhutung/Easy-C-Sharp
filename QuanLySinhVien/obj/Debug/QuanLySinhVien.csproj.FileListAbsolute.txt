@@ -15,3 +15,4 @@ C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.
 C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.SinhVienHocLai.resources
 C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.SinhVienTheoLop.resources
 C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.ThemSinhVien.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\QuanLySinhVien\obj\Debug\QuanLySinhVien.SuaLop.resources

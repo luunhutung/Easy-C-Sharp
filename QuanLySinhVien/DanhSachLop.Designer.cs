@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.dgvDanhSachLopHoc = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachLopHoc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,19 +42,8 @@
             this.dgvDanhSachLopHoc.Name = "dgvDanhSachLopHoc";
             this.dgvDanhSachLopHoc.Size = new System.Drawing.Size(520, 259);
             this.dgvDanhSachLopHoc.TabIndex = 0;
+            this.dgvDanhSachLopHoc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellClick);
             this.dgvDanhSachLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellContentClick);
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(159, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "DANH SÁCH LỚP HỌC";
             // 
             // button1
             // 
@@ -66,13 +55,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(107, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(313, 37);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "DANH SÁCH LỚP HỌC";
+            // 
             // DanhSachLop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 371);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvDanhSachLopHoc);
             this.Name = "DanhSachLop";
             this.Text = "Danh sách lớp";
@@ -86,7 +87,7 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dgvDanhSachLopHoc;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }

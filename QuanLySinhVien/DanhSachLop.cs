@@ -46,7 +46,17 @@ namespace QuanLySinhVien
         private void dgvDanhSachLopHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             string MaLopHoc = dgvDanhSachLopHoc.Rows[e.RowIndex].Cells[0].Value.ToString();
+            MessageBox.Show(MaLopHoc);
+
+            Form formSuaLopHoc = new SuaLop();
+            formSuaLopHoc.ShowDialog();
+
         }
         #endregion
+
+        private void dgvDanhSachLopHoc_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
