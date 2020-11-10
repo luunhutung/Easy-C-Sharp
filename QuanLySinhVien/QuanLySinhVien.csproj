@@ -93,6 +93,12 @@
     <Compile Include="SuaLop.Designer.cs">
       <DependentUpon>SuaLop.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuaSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaSinhVien.Designer.cs">
+      <DependentUpon>SuaSinhVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemLop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -134,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SuaLop.resx">
       <DependentUpon>SuaLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuaSinhVien.resx">
+      <DependentUpon>SuaSinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemLop.resx">
       <DependentUpon>ThemLop.cs</DependentUpon>

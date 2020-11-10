@@ -46,12 +46,11 @@ namespace QuanLySinhVien
         #endregion
 
         #region Button Reset
-        private void btnReset_Click(object sender, EventArgs e)
+        private void btnResetSV_Click(object sender, EventArgs e)
         {
             txtMaSV.Text = "";
             txtTenSV.Text = "";
             txtSoDT.Text = "";
-            comboBoxGioiTinh.Text = "";
             txtDiaChiSV.Text = "";
             dateTimePickerNgaySinh.ResetText();
         }

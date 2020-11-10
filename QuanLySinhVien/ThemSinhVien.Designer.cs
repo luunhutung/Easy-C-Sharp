@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnReset = new System.Windows.Forms.Button();
+            this.btnResetSV = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtSoDT = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -45,14 +45,16 @@
             this.comboBoxGioiTinh = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // btnReset
+            // btnResetSV
             // 
-            this.btnReset.Location = new System.Drawing.Point(287, 272);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(66, 23);
-            this.btnReset.TabIndex = 8;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnResetSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnResetSV.Location = new System.Drawing.Point(287, 272);
+            this.btnResetSV.Name = "btnResetSV";
+            this.btnResetSV.Size = new System.Drawing.Size(66, 23);
+            this.btnResetSV.TabIndex = 8;
+            this.btnResetSV.Text = "Reset";
+            this.btnResetSV.UseVisualStyleBackColor = true;
+            this.btnResetSV.Click += new System.EventHandler(this.btnResetSV_Click);
             // 
             // label4
             // 
@@ -98,6 +100,7 @@
             // 
             // btnThem
             // 
+            this.btnThem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnThem.Location = new System.Drawing.Point(211, 272);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(70, 23);
@@ -183,7 +186,7 @@
             this.Controls.Add(this.dateTimePickerNgaySinh);
             this.Controls.Add(this.txtDiaChiSV);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnResetSV);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtSoDT);
             this.Controls.Add(this.label3);
@@ -202,7 +205,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Button btnResetSV;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSoDT;
         private System.Windows.Forms.Label label3;

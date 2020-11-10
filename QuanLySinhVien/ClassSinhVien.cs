@@ -8,14 +8,19 @@ namespace QuanLySinhVien
 {
     class ClassSinhVien
     {
+        #region Property
         public string MaSV { get; set; }
         public string TenSV { get; set; }
+        public bool GioiTinh { get; set; }
         public string SoDT { get; set; }
         public string DiaChi { get; set; }
-        public bool GioiTinh { get; set; }
         public DateTime NgaySinh { get; set; }
 
         public static List<ClassSinhVien> DanhSachSinhVien;
+
+        private static ClassSinhVien SinhVienCanSua;
+
+        #endregion
 
         #region Constructor
         public ClassSinhVien()
@@ -26,10 +31,15 @@ namespace QuanLySinhVien
         {
             MaSV = maSV;
             TenSV = tenSV;
+            GioiTinh = gioiTinh;
             SoDT = soDT;
             DiaChi = diaChi;
-            GioiTinh = gioiTinh;
             NgaySinh = ngaySinh;
+        }
+
+        public static List<ClassSinhVien> GetDanhSachSinhVien()
+        {
+            return DanhSachSinhVien;
         }
         #endregion
 
@@ -47,11 +57,41 @@ namespace QuanLySinhVien
         }
         #endregion
 
-        #region Thêm sinh viên vừa nhập vào danh sách
+        #region Tìm sinh viên theo mã sinh viên
+        public static ClassSinhVien SinhVienById(string maSV)
+        {
+            foreach ( var sv in DanhSachSinhVien)
+            {
+                if (sv.MaSV == maSV)
+                    return sv;
+            }
+            return new ClassSinhVien();
+        }
+        #endregion
+
+        #region Set thông tin sinh viên cần sửa
+        public static void SetSinhVienCanSua(ClassSinhVien sVCanSua)
+        {
+            SinhVienCanSua = sVCanSua;
+        }
+        #endregion
+
+        #region Get thông tin sinh viên cần sửa
+        public static ClassSinhVien GetSinhVienCanSua()
+        {
+            if (SinhVienCanSua == null)
+                return new ClassSinhVien();
+
+            return SinhVienCanSua;
+        }
+        #endregion
+
+        #region Thêm sinh viên vào danh sách
         public void Them()
         {
             if (DanhSachSinhVien == null)
                 DanhSachSinhVien = new List<ClassSinhVien>();
+
             DanhSachSinhVien.Add(this);
         }
 
@@ -59,20 +99,25 @@ namespace QuanLySinhVien
         {
             if (DanhSachSinhVien == null)
                 DanhSachSinhVien = new List<ClassSinhVien>();
+
             DanhSachSinhVien.Add(sv);
         }
         #endregion
-        
+
+        #region Xóa sinh viên trong danh sách
         public static void Xoa(string maSV)
         {   
             DanhSachSinhVien.RemoveAll(sv => sv.MaSV == maSV);
         }
+        #endregion
 
+        #region Sửa sinh viên trong danh sách
         public static void Sua(ClassSinhVien sv)
         {
             Xoa(sv.MaSV);
             Them(sv);
         }
+        #endregion
 
     }
 }

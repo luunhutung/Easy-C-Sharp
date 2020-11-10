@@ -38,10 +38,11 @@
             // 
             this.dgvDanhSachSinhVien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDanhSachSinhVien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhSachSinhVien.Location = new System.Drawing.Point(1, 99);
+            this.dgvDanhSachSinhVien.Location = new System.Drawing.Point(1, 76);
             this.dgvDanhSachSinhVien.Name = "dgvDanhSachSinhVien";
-            this.dgvDanhSachSinhVien.Size = new System.Drawing.Size(703, 287);
+            this.dgvDanhSachSinhVien.Size = new System.Drawing.Size(634, 287);
             this.dgvDanhSachSinhVien.TabIndex = 0;
+            this.dgvDanhSachSinhVien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachSinhVien_CellContentClick);
             // 
             // label1
             // 
@@ -49,7 +50,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(196, 28);
+            this.label1.Location = new System.Drawing.Point(160, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(332, 37);
             this.label1.TabIndex = 2;
@@ -57,7 +58,8 @@
             // 
             // btnThemSinhVien
             // 
-            this.btnThemSinhVien.Location = new System.Drawing.Point(603, 418);
+            this.btnThemSinhVien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThemSinhVien.Location = new System.Drawing.Point(534, 371);
             this.btnThemSinhVien.Name = "btnThemSinhVien";
             this.btnThemSinhVien.Size = new System.Drawing.Size(92, 23);
             this.btnThemSinhVien.TabIndex = 3;
@@ -69,7 +71,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 453);
+            this.ClientSize = new System.Drawing.Size(638, 406);
             this.Controls.Add(this.btnThemSinhVien);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dgvDanhSachSinhVien);
