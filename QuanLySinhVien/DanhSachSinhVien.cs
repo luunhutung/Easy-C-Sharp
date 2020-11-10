@@ -12,10 +12,13 @@ namespace QuanLySinhVien
 {
     public partial class DanhSachSinhVien : Form
     {
+        #region Hàm khởi tạo
         public DanhSachSinhVien()
         {
             InitializeComponent();
         }
+        #endregion
+
         #region Hàm Load Danh sách sinh viên
         private void DanhSachSinhVien_Load(object sender, EventArgs e)
         {

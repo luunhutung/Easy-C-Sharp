@@ -12,10 +12,12 @@ namespace QuanLySinhVien
 {
     public partial class DanhSachLop : Form
     {
+        #region Hàm khởi tạo
         public DanhSachLop()
         {
             InitializeComponent();
         }
+        #endregion
 
         #region Load Danh sách lớp
         private void DanhSachLop_Load(object sender, EventArgs e)
@@ -46,10 +48,17 @@ namespace QuanLySinhVien
         private void dgvDanhSachLopHoc_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             string MaLopHoc = dgvDanhSachLopHoc.Rows[e.RowIndex].Cells[0].Value.ToString();
-            MessageBox.Show(MaLopHoc);
+
+            ClassLop LopCanSua = ClassLop.LopById(MaLopHoc);
 
             Form formSuaLopHoc = new SuaLop();
-            formSuaLopHoc.ShowDialog();
+            
+            var isOK = formSuaLopHoc.ShowDialog();
+
+            if (isOK == DialogResult.OK)
+                ResetDanhSachLop();
+
+            ClassLop.SetLopCanSua(LopCanSua);
 
         }
         #endregion

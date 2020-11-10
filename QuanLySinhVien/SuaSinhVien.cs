@@ -12,11 +12,13 @@ namespace QuanLySinhVien
 {
     public partial class SuaSinhVien : Form
     {
+        #region Hàm khởi tạo
         public SuaSinhVien()
         {
             InitializeComponent();
             SetInputForm(ClassSinhVien.GetSinhVienCanSua());
         }
+        #endregion
 
         #region Hàm Load
         private void SuaSinhVien_Load(object sender, EventArgs e)
