@@ -51,21 +51,15 @@ namespace QuanLySinhVien
 
             ClassLop LopCanSua = ClassLop.LopById(MaLopHoc);
 
+            ClassLop.SetLopCanSua(LopCanSua);
+
             Form formSuaLopHoc = new SuaLop();
             
             var isOK = formSuaLopHoc.ShowDialog();
 
             if (isOK == DialogResult.OK)
                 ResetDanhSachLop();
-
-            ClassLop.SetLopCanSua(LopCanSua);
-
         }
         #endregion
-
-        private void dgvDanhSachLopHoc_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

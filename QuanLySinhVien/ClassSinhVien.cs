@@ -36,11 +36,6 @@ namespace QuanLySinhVien
             DiaChi = diaChi;
             NgaySinh = ngaySinh;
         }
-
-        public static List<ClassSinhVien> GetDanhSachSinhVien()
-        {
-            return DanhSachSinhVien;
-        }
         #endregion
 
         #region Tính tuổi sinh viên
@@ -54,6 +49,15 @@ namespace QuanLySinhVien
         public string SinhVienToString()
         {
             return string.Format("{0}, {1}, {2}, {3}, {4}, {5}", MaSV, TenSV, SoDT, DiaChi, GioiTinh, NgaySinh);
+        }
+        #endregion
+
+        #region Get danh sách sinh viên
+        public static List<ClassSinhVien> GetDanhSachSinhVien()
+        {
+            if (DanhSachSinhVien == null)
+                DanhSachSinhVien = new List<ClassSinhVien>();
+            return DanhSachSinhVien;
         }
         #endregion
 

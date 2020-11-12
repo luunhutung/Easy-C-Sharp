@@ -91,7 +91,7 @@ namespace QuanLySinhVien
         #region Button Xóa
         private void btnXoaSV_Click(object sender, EventArgs e)
         {
-            var isXoa = MessageBox.Show("Bạn có muốn xóa không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            var isXoa = MessageBox.Show("Bạn có muốn xóa sinh viên " + ClassSinhVien.GetSinhVienCanSua().TenSV + " không?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
 
             if (isXoa != DialogResult.OK)
                 return;

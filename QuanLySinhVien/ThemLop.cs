@@ -27,12 +27,6 @@ namespace QuanLySinhVien
                 lophoc.ThemLopHoc();
 
                 DialogResult = DialogResult.OK;
-
-                /*Form FormDanhSachLop = new DanhSachLop();
-                FormDanhSachLop.Show();
-                Close();
-
-                SetInputForm(new ClassLop());*/
             }
             catch (Exception ex)
             {
@@ -71,8 +65,8 @@ namespace QuanLySinhVien
             txtTenLop.Text = classLop.TenLop;
             txtDiaChiLop.Text = classLop.DiaChi;
         }
-        #endregion
 
+        #endregion
 
     }
 }

@@ -42,7 +42,6 @@
             this.dgvDanhSachLopHoc.Name = "dgvDanhSachLopHoc";
             this.dgvDanhSachLopHoc.Size = new System.Drawing.Size(520, 259);
             this.dgvDanhSachLopHoc.TabIndex = 0;
-            this.dgvDanhSachLopHoc.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellClick);
             this.dgvDanhSachLopHoc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDanhSachLopHoc_CellContentClick);
             // 
             // button1

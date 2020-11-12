@@ -73,6 +73,15 @@ namespace QuanLySinhVien
         }
         #endregion
 
+        #region Get danh sách lớp
+        public static List<ClassLop> GetDanhSachLopHoc()
+        {
+            if (DanhSachLopHoc == null)
+                DanhSachLopHoc = new List<ClassLop>();
+            return DanhSachLopHoc;
+        }
+        #endregion
+
         #region Tìm lớp học bằng Mã lớp
         public static ClassLop LopById(string maLopHoc)
         {
@@ -87,14 +96,20 @@ namespace QuanLySinhVien
         #endregion
 
         #region Set thông tin lớp cần sửa
-        private static void SetLopCanSua(ClassLop lopCanSua)
+        public static void SetLopCanSua(ClassLop lopCanSua)
         {
             LopCanSua = lopCanSua;
         }
         #endregion
 
         #region Get thông tin lớp cần sửa
+        public static ClassLop GetLopCanSua()
+        {
+            if (LopCanSua == null)
+                return new ClassLop();
 
+            return LopCanSua;
+        }
         #endregion
     }
 }

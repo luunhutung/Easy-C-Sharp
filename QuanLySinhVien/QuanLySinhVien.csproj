@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BangDiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BangDiem.Designer.cs">
+      <DependentUpon>BangDiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassBangDiem.cs" />
     <Compile Include="ClassLop.cs" />
     <Compile Include="ClassSinhVien.cs" />
     <Compile Include="DanhSachLop.cs">
@@ -111,6 +118,9 @@
     <Compile Include="ThemSinhVien.Designer.cs">
       <DependentUpon>ThemSinhVien.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BangDiem.resx">
+      <DependentUpon>BangDiem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DanhSachLop.resx">
       <DependentUpon>DanhSachLop.cs</DependentUpon>
     </EmbeddedResource>

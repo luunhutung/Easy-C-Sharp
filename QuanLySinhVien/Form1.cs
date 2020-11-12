@@ -95,9 +95,20 @@ namespace QuanLySinhVien
         }
         #endregion
 
+        #region Hàm Load
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+        #endregion
+
+        #region Bảng điểm
+        private void cậpNhậtBảngĐiểmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form formBangDiem = new BangDiem();
+            formBangDiem.MdiParent = this;
+            formBangDiem.Show();
+        }
+        #endregion
     }
 }
