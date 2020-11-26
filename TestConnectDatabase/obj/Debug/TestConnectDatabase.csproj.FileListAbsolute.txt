@@ -1,0 +1,10 @@
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\bin\Debug\TestConnectDatabase.exe.config
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\bin\Debug\TestConnectDatabase.exe
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\bin\Debug\TestConnectDatabase.pdb
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.csprojAssemblyReference.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.Form1.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.Properties.Resources.resources
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.csproj.GenerateResource.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.csproj.CoreCompileInputs.cache
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.exe
+C:\Users\NN\Desktop\GitHub\Easy-C-Sharp\TestConnectDatabase\obj\Debug\TestConnectDatabase.pdb

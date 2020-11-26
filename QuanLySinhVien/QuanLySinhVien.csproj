@@ -55,6 +55,7 @@
     <Compile Include="ClassBangDiem.cs" />
     <Compile Include="ClassLop.cs" />
     <Compile Include="ClassSinhVien.cs" />
+    <Compile Include="ConnectDB.cs" />
     <Compile Include="DanhSachLop.cs">
       <SubType>Form</SubType>
     </Compile>

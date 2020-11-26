@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestConnectDatabase;
 
 namespace QuanLySinhVien
 {
@@ -97,6 +98,12 @@ namespace QuanLySinhVien
                 DanhSachSinhVien = new List<ClassSinhVien>();
 
             DanhSachSinhVien.Add(this);
+
+            ConnectDB connectDB = new ConnectDB();
+
+            string sql = string.Format(@"INSERT INTO SinhVien(MaSV, TenSV, GioiTinh, SoDT, DiaChi, NgaySinh) VALUES('{0}', N'{1}', '{2}', '{3}', N'{4}', '{5}')", this.MaSV, this.TenSV, this.GioiTinh, this.SoDT, this.DiaChi, this.NgaySinh);
+
+            connectDB.InsertQuery(sql);
         }
 
         public static void Them(ClassSinhVien sv)
@@ -105,6 +112,13 @@ namespace QuanLySinhVien
                 DanhSachSinhVien = new List<ClassSinhVien>();
 
             DanhSachSinhVien.Add(sv);
+
+            ConnectDB connectDB = new ConnectDB();
+
+            string sql = string.Format(@"INSERT INTO SinhVien(MaSV, TenSV, GioiTinh, SoDT, DiaChi, NgaySinh) VALUES('{0}', N'{1}', '{2}', '{3}', N'{4}', '{5}')", sv.MaSV, sv.TenSV, sv.GioiTinh == true ? 1 : 0, sv.SoDT, sv.DiaChi, sv.NgaySinh);
+
+            connectDB.InsertQuery(sql);
+
         }
         #endregion
 
@@ -112,6 +126,12 @@ namespace QuanLySinhVien
         public static void Xoa(string maSV)
         {   
             DanhSachSinhVien.RemoveAll(sv => sv.MaSV == maSV);
+
+            ConnectDB connectDB = new ConnectDB();
+
+            string sql = string.Format(@"DELETE FROM SinhVien WHERE MaSV = '{0}'", maSV);
+
+            connectDB.InsertQuery(sql);
         }
         #endregion
 
@@ -120,6 +140,8 @@ namespace QuanLySinhVien
         {
             Xoa(sv.MaSV);
             Them(sv);
+
+
         }
         #endregion
 
