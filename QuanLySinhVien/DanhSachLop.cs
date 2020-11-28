@@ -29,8 +29,7 @@ namespace QuanLySinhVien
         #region Hàm Reset Danh sách lớp
         private void ResetDanhSachLop()
         {
-            if (ClassLop.DanhSachLopHoc != null)
-                dgvDanhSachLopHoc.DataSource = ClassLop.DanhSachLopHoc.ToList();
+            dgvDanhSachLopHoc.DataSource = ClassLop.GetDanhSachLopHoc().ToList();
         }
         #endregion
 
@@ -54,7 +53,7 @@ namespace QuanLySinhVien
             ClassLop.SetLopCanSua(LopCanSua);
 
             Form formSuaLopHoc = new SuaLop();
-            
+
             var isOK = formSuaLopHoc.ShowDialog();
 
             if (isOK == DialogResult.OK)

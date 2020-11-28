@@ -21,5 +21,17 @@ namespace TestConnectDatabase
 
             Connection.Close();
         }
+
+        public SqlDataReader SelectQuery(string Query)
+        {
+            SqlConnection Connection = new SqlConnection(ConnectionString);
+            Connection.Open();
+
+            SqlCommand Cmd = new SqlCommand(Query, Connection);
+            SqlDataReader result = Cmd.ExecuteReader();
+
+            Connection.Close();
+            return result;
+        }
     }
 }

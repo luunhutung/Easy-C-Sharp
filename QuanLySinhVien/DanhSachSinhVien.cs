@@ -29,8 +29,7 @@ namespace QuanLySinhVien
         #region Hàm Reset Danh sách Sinh viên
         private void ResetDanhSachSinhVien()
         {
-            if (ClassSinhVien.DanhSachSinhVien != null)
-                dgvDanhSachSinhVien.DataSource = ClassSinhVien.GetDanhSachSinhVien().ToList();
+            dgvDanhSachSinhVien.DataSource = ClassSinhVien.GetDanhSachSinhVien().ToList();
         }
         #endregion
 

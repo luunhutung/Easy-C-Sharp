@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -56,21 +57,54 @@ namespace QuanLySinhVien
         #region Get danh sách sinh viên
         public static List<ClassSinhVien> GetDanhSachSinhVien()
         {
-            if (DanhSachSinhVien == null)
-                DanhSachSinhVien = new List<ClassSinhVien>();
-            return DanhSachSinhVien;
+            //if (DanhSachSinhVien == null)
+            //    DanhSachSinhVien = new List<ClassSinhVien>();
+            //return DanhSachSinhVien;
+
+            ConnectDB connectDB = new ConnectDB();
+            SqlDataReader result = connectDB.SelectQuery("SELECT * FROM SINHVIEN");
+            List<ClassSinhVien> listSinhVien = new List<ClassSinhVien>();
+            while (result.Read())
+            {
+                string maSV = result.GetValue(0).ToString();
+                string tenSV = result.GetValue(1).ToString();
+                string gioiTinh = result.GetValue(2).ToString();
+                string soDT = result.GetValue(3).ToString();
+                string diaChi = result.GetValue(4).ToString();
+                string ngaySinh = result.GetValue(5).ToString();
+
+                ClassSinhVien sinhvien = new ClassSinhVien(maSV, tenSV, bool.Parse(gioiTinh), soDT, diaChi, DateTime.Parse(ngaySinh));
+                listSinhVien.Add(sinhvien);
+            }
+            return listSinhVien;
         }
         #endregion
 
         #region Tìm sinh viên theo mã sinh viên
         public static ClassSinhVien SinhVienById(string maSV)
         {
-            foreach ( var sv in DanhSachSinhVien)
-            {
-                if (sv.MaSV == maSV)
-                    return sv;
-            }
-            return new ClassSinhVien();
+            //foreach ( var sv in DanhSachSinhVien)
+            //{
+            //    if (sv.MaSV == maSV)
+            //        return sv;
+            //}
+            //return new ClassSinhVien();
+
+            ConnectDB connectDB = new ConnectDB();
+
+            string sql = @"SELECT * FROM SINHVIEN WHERE MaSV = '{0}'";
+
+            SqlDataReader result = connectDB.SelectQuery(string.Format(sql, maSV));
+
+            result.Read();
+            string tenSV = result.GetValue(1).ToString();
+            string gioiTinh = result.GetValue(2).ToString();
+            string soDT = result.GetValue(3).ToString();
+            string diaChi = result.GetValue(4).ToString();
+            string ngaySinh = result.GetValue(5).ToString();
+
+            ClassSinhVien sinhvien = new ClassSinhVien(maSV, tenSV, bool.Parse(gioiTinh), soDT, diaChi, DateTime.Parse(ngaySinh));
+            return sinhvien;
         }
         #endregion
 
@@ -124,23 +158,28 @@ namespace QuanLySinhVien
 
         #region Xóa sinh viên trong danh sách
         public static void Xoa(string maSV)
-        {   
+        {
             DanhSachSinhVien.RemoveAll(sv => sv.MaSV == maSV);
 
             ConnectDB connectDB = new ConnectDB();
 
-            string sql = string.Format(@"DELETE FROM SinhVien WHERE MaSV = '{0}'", maSV);
+            string sql = @"DELETE FROM SinhVien WHERE MaSV = '{0}'";
 
-            connectDB.InsertQuery(sql);
+            connectDB.InsertQuery(string.Format(sql, maSV));
         }
         #endregion
 
         #region Sửa sinh viên trong danh sách
         public static void Sua(ClassSinhVien sv)
         {
-            Xoa(sv.MaSV);
-            Them(sv);
+            //Xoa(sv.MaSV);
+            //Them(sv);
 
+            ConnectDB connectDB = new ConnectDB();
+
+            string sql = @"UPDATE SinhVien SET TenSV = '{0}', GioiTinh = '{1}' SoDT = '{2}', DiaChi = '{3}', NgaySinh = '{4}', WHERE MaSV = '{5}'";
+
+            connectDB.InsertQuery(string.Format(sql, sv.TenSV, sv.GioiTinh == true ? 1 : 0, sv.SoDT, sv.DiaChi, sv.NgaySinh, sv.MaSV));
 
         }
         #endregion
